@@ -1,0 +1,19 @@
+# Importing random module
+import random
+  
+# Defining list of phrases which will help to build a story
+a = ['About 100 years ago', ' In the 20 BC', 'Once upon a time']
+b = [' there lived a king.',' there was a man named Jack.',
+             ' there lived a farmer.']
+c = [' One day', ' One full-moon night']
+d = [' he was passing by',' he was going for a picnic to ']
+e = [' the mountains', ' the garden']
+f = [' he saw a man', ' he saw a young lady']
+g = [' who seemed to be in late 20s', ' who seemed very old and feeble']
+h = [' searching something.', ' digging a well on roadside.']
+  
+# Selecting an item from each list and concatenating them.
+print(random.choice(a)+random.choice(b)+
+      random.choice(c)+random.choice(d) +
+      random.choice(e)+random.choice(f)+
+      random.choice(g)+random.choice(h))
